@@ -11,17 +11,7 @@ public class UIManager : MonoBehaviour
     public GameObject gamePanel;
     public GameObject failPanel;
     public GameObject winPanel;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+   
     public void RetryLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
